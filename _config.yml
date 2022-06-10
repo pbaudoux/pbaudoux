@@ -1,0 +1,13 @@
+title: Pierre Baudoux
+email: mail@pbaudoux.com
+description: >-
+  Random tech toughts
+baseurl: ""
+url: "https://pbaudoux.com"
+twitter_username: pierrebaudoux
+github_username:  pbaudoux
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
