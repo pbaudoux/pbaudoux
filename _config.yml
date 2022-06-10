@@ -6,6 +6,7 @@ baseurl: ""
 url: "https://pbaudoux.com"
 twitter_username: pierrebaudoux
 github_username:  pbaudoux
+linkedin_username: pbaudoux
 
 # Build settings
 theme: minima
