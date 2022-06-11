@@ -10,9 +10,9 @@ Jekyll requires blog post files to be named according to the following format:
 
 `YEAR-MONTH-DAY-title.MARKUP`
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter.
+Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file (`md` for Markdown). After that, include the necessary front matter.
 
-You can use this command to build the website, serve and reload changes on save:
+This command builds the website and serves it at http://localhost:4000/
 {% highlight shell %}
 bundle exec jekyll serve --livereload
 {% endhighlight %}

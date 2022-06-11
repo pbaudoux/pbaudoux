@@ -12,3 +12,7 @@ linkedin_username: pbaudoux
 theme: minima
 plugins:
   - jekyll-feed
+
+header_pages:
+  - books.md
+  - about.md
