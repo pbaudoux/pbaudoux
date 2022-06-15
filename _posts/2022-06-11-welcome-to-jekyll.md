@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-date:   2022-06-11 00:17:29 +0200
-categories: jekyll update
+date:   2022-06-11
+modified_date: 2022-06-15
+category: misc
+tags: jekyll website
 ---
 This website uses [Jekyll](https://jekyllrb.com/docs/) to easily turn plain text into a static website, and is hosted on [GitHub pages](https://pages.github.com/).
 
@@ -16,3 +18,5 @@ This command builds the website and serves it at http://localhost:4000/
 {% highlight shell %}
 bundle exec jekyll serve --livereload
 {% endhighlight %}
+
+Some of the customizations from the default Jekyll theme (minima) are inspired from [here](https://simonkjohnston.life/code/2019/07/08/Some-Jekyll-Customization.html) and [there](https://ouyi.github.io/post/2017/12/23/jekyll-customization.html).

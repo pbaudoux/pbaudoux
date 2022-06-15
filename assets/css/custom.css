@@ -1,0 +1,15 @@
+.cover {
+  max-width: 200px;
+  max-height: 200px;
+  float: right;
+  border: 1px solid black;
+}
+
+.tag:before {
+  content: "#";
+}
+
+.tag {
+    color: grey;
+    font-style: italic;
+  }
