@@ -1,7 +1,8 @@
 ---
-layout: catpage
+layout: books
 title: Books
-permalink: /books/
+permalink: /books
 category: books
 ---
-> Under construction
+
+I enjoy reading books.

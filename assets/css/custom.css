@@ -1,7 +1,13 @@
-.cover {
+.cover_post {
   max-width: 200px;
   max-height: 200px;
   float: right;
+  border: 1px solid black;
+}
+
+.cover_mosaic {
+  max-width: 200px;
+  max-height: 200px;
   border: 1px solid black;
 }
 

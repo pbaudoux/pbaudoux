@@ -6,6 +6,7 @@ modified_date: 2022-06-15
 category: misc
 tags: jekyll website
 ---
+
 This website uses [Jekyll](https://jekyllrb.com/docs/) to easily turn plain text into a static website, and is hosted on [GitHub pages](https://pages.github.com/).
 
 Jekyll requires blog post files to be named according to the following format:

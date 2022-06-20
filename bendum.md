@@ -1,6 +1,6 @@
 ---
 layout: default
 title: Bendum
-permalink: /bendum/
+permalink: /bendum
 ---
 ![bendum](/assets/images/bendum.jpeg)
