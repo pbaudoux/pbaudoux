@@ -12,6 +12,7 @@ linkedin_username: pbaudoux
 theme: minima
 plugins:
   - jekyll-feed
+  - jemoji
 
 header_pages:
   - books.md
