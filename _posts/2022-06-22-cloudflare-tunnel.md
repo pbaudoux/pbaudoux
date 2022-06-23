@@ -7,12 +7,12 @@ category: misc
 
 You can use Cloudflare to easily setup a secure and temporary tunnel for anyone to access your local deployment over the internet.
 
-Imagine you just build your first [Jekyll](/misc/2022/06/11/welcome-to-jekyll.html) website and you run it localy at [http://localhost:4000](http://localhost:4000). Just install [`cloudflared`](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/tunnel-guide/#set-up-a-tunnel-locally-cli-setup) and run:
+Imagine you just build your first [Jekyll](/misc/2022/06/11/welcome-to-jekyll.html) website and you run it localy at [http://localhost:4000](http://localhost:4000). Just install [`cloudflared`](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/tunnel-guide/#set-up-a-tunnel-locally-cli-setup) (no need to create an account and authenticate) and run:
 ```shell
 cloudflared tunnel --url http://localhost:4000
 ```
 
-The output should give you a temporary URL on which you anyone can reach your machine:
+The output will give you a temporary URL on which you anyone can reach your machine:
 ```
 2022-06-22T19:27:12Z INF Requesting new quick Tunnel on trycloudflare.com...
 2022-06-22T19:27:14Z INF +--------------------------------------------------------------------------------------------+
