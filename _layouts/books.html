@@ -7,29 +7,23 @@ layout: default
   {{ content }}
 </div>
 
-{% for category in site.categories %}
-  {% if category[0] == page.category %}
-    <div>
-      <ul>
-        {% for post in category[1] %}
-        <a href="{{ post.url }}">
-        <img src="{{ post.cover_path }}" alt="{{ post.title }} cover" class="cover_mosaic">
-        </a>
-        {% endfor %}
-      </ul>
-    </div>
-  {% endif %}
-{% endfor %}
+<div>
+  {% for page in site.pages %}
+    {% if page.category == "books" %}
+      <a href="{{ page.url }}">
+      <img src="{{ page.cover_path }}" alt="{{ page.title }} cover" class="cover_mosaic">
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>
 
-{% for category in site.categories %}
-  {% if category[0] == page.category %}
-    <div>
-      <h2>Titles</h2>
-      <ul>
-        {% for post in category[1] %}
-          <li><a href="{{ post.url }}">{{ post.book_title }}</a></li>
-        {% endfor %}
-      </ul>
-    </div>
-  {% endif %}
-{% endfor %}
+<div>
+  <h2 style="margin-top:25px">Titles</h2>
+  <ul>
+    {% for page in site.pages %}
+      {% if page.category == "books" %}
+        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
