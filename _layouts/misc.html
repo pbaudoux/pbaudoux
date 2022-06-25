@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="/assets/css/custom.css">
+
+<div>
+  {{ content }}
+</div>
+
+<div>
+  <h2>Pages</h2>
+  <ul>
+    {% for page in site.pages %}
+      {% if page.category == "misc" %}
+        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

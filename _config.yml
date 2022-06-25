@@ -16,4 +16,5 @@ plugins:
 
 header_pages:
   - books.md
+  - misc.md
   - about.md
