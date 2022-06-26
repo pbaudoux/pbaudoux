@@ -15,6 +15,7 @@ category: misc
 | `Option + Shift + ( or )` | [ or ]   |
 | `Option + Shift + l`      | \|       |
 | `Option + Shift + :`      | \        |
+| `Option + n`              | ~        |
 
 # Terminal
 ```shell
