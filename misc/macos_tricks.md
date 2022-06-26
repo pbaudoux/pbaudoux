@@ -4,7 +4,7 @@ title: Mac Os personal cheat sheet
 permalink: /macos
 category: misc
 ---
-# Software
+# Softwares
 - **[Homebrew](https://brew.sh/)** for packet management
 - **[Oh My Zsh](https://ohmyz.sh/)** for `zsh` configuration
 - **[LICEcap](https://www.cockos.com/licecap/)** for creating GIFs screen captures
