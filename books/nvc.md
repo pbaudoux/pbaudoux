@@ -4,13 +4,11 @@ title: "Nonviolent Communication"
 date: "2022-06-12"
 category: books
 book_title: "Nonviolent Communication: A Language of Life"
-book_author: XXX
-book_published_date: XXX
+book_author: "Marshall B. Rosenberg"
+book_published_date: 2003
 cover_path: "/assets/images/books/nvc.jpeg"
 tags: communication softskills
 ---
-
-> TODO
 
 # NVC framework
 - Observations

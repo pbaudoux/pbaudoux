@@ -22,7 +22,7 @@ layout: default
   <ul>
     {% for page in site.pages %}
       {% if page.category == "books" %}
-        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+        <li><a href="{{ page.url }}">{{ page.book_title }} ({{ page.book_published_date }})</a></li>
       {% endif %}
     {% endfor %}
   </ul>

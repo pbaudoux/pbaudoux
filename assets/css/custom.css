@@ -11,6 +11,10 @@
   border: 1px solid black;
 }
 
+.infobox {
+  width: 60%;
+}
+
 .tag:before {
   content: "#";
 }
@@ -18,4 +22,4 @@
 .tag {
     color: grey;
     font-style: italic;
-  }
+}
