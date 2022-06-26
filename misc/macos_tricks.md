@@ -23,4 +23,7 @@ category: misc
 ```shell
 # Open working directory in Finder
 open .
+
+# you can use `pbcopy` to pipe text into your clipboard
+echo "Some text" | pbcopy
 ```
