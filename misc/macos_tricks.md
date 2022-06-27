@@ -18,6 +18,7 @@ category: misc
 | `Option + Shift + l`      | \|       |
 | `Option + Shift + :`      | \        |
 | `Option + n`              | ~        |
+| `fn + backspace`          | delete   |
 
 # Terminal
 ```shell
