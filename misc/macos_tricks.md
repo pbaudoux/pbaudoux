@@ -12,19 +12,20 @@ category: misc
 
 # Shortcuts
 
-| Shortcut                  | Result   |
-|---------------------------|----------|
-| `Option + Shift + ( or )` | [ or ]   |
-| `Option + Shift + l`      | \|       |
-| `Option + Shift + :`      | \        |
-| `Option + n`              | ~        |
-| `fn + backspace`          | delete   |
+| Shortcut                        | Result     |
+|---------------------------------|------------|
+| `Option` + `(` or `)`           | `{` or `}` |
+| `Option` + `Shift` + `(` or `)` | `[` or `]` |
+| `Option` + `Shift` + `l`        | `\|`       |
+| `Option` + `Shift` + `:`        | `\`        |
+| `Option` + `n`                  | `~`        |
+| `fn` + `backspace`              | `delete`   |
 
 # Terminal
 ```shell
 # Open working directory in Finder
 open .
 
-# you can use `pbcopy` to pipe text into your clipboard
+# Pipe text into your clipboard
 echo "Some text" | pbcopy
 ```
