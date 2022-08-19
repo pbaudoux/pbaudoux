@@ -21,17 +21,19 @@ As OAuth is a *framework*, a lot of details are left to the implementation (e.g.
 ### Authorization flows
 In order to gain authorization, client needs to perform an authorization grant to request the access token (and optionaly, the refresh token).
 
-OAuth defines four grant types:
+The original OAuth 2.0 RFC defines four grant types:
 1. Authorization Code
 2. Implicit
 3. Resource Owner Password Credentials
 4. Client Credentials
 
-It also provides an extension mechanism for defining additional grant types.
+Additional RFCs have defined additional grants (e.g. Authorization Code with PKCE, Device Code, etc.).
 
-Each of these flows has its advantages/disadvantages and the best flow will depend on the application type and the use case.
+OAuth 2.1 is currently being drafted and will consolidate old and new flows in a single specification, as well as retiring some flows that are now considered unsecure (e.g. Implicit Grant).
 
-## OpenID Connect
+Each of the flows have their advantages/disadvantages and the best flow will depend on the application type and the use case.
+
+## OpeID Connect
 OpenID Connect (OIDC) is an **authentication** standard that is built on top of OAuth.
 
 The main difference is that an OIDC flows will give an ID token in addition to the access token. This ID token contains claims about the user.
@@ -51,4 +53,5 @@ You can set up a demo application using OIDC with the OAuth **authorization code
 - [OAuth 2.0 and OpenID Connect Overview](https://developer.okta.com/docs/concepts/oauth-openid) - Okta Developer Blog
 - [What the Heck is OAuth?](https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth) - (deeper dive) Okta Developer Blog
 - [OAuth 2 Simplified](https://aaronparecki.com/oauth-2-simplified) - Implementation-oriented guide
+- [It's Time for OAuth 2.1](https://aaronparecki.com/2019/12/12/21/its-time-for-oauth-2-dot-1) - Why and where the standard is evolving
 
