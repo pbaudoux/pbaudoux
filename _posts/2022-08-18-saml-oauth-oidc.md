@@ -46,6 +46,7 @@ You can set up a demo application using OIDC with the OAuth **authorization code
 3. Create an application in Okta using default values
 4. Log-in to the demo app at `http://localhost:8080/`
 
+Also, my friend Cédric made a [minimalist CLI tool to test OIDC integration](https://github.com/vdbulcke/oidc-client-demo).
 
 ## Useful links
 - [Understanding SAML](https://developer.okta.com/docs/concepts/saml) - Okta Developer Blog
