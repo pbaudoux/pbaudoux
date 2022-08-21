@@ -33,7 +33,7 @@ OAuth 2.1 is currently being drafted and will consolidate old and new flows in a
 
 Each of the flows have their advantages/disadvantages and the best flow will depend on the application type and the use case.
 
-## OpeID Connect
+## OpenID Connect
 OpenID Connect (OIDC) is an **authentication** standard that is built on top of OAuth.
 
 The main difference is that an OIDC flows will give an ID token in addition to the access token. This ID token contains claims about the user.
