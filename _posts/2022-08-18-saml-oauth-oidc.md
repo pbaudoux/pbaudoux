@@ -55,4 +55,4 @@ Also, my friend Cédric made a [minimalist CLI tool to test OIDC integration](ht
 - [What the Heck is OAuth?](https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth) - (deeper dive) Okta Developer Blog
 - [OAuth 2 Simplified](https://aaronparecki.com/oauth-2-simplified) - Implementation-oriented guide
 - [It's Time for OAuth 2.1](https://aaronparecki.com/2019/12/12/21/its-time-for-oauth-2-dot-1) - Why and where the standard is evolving
-
+- [Code Injection Attack Demo](https://www.youtube.com/watch?v=1ot45WwQWJE) - Why you need PKCE in the Authorization Code flow even for confidential clients
