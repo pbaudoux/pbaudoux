@@ -2,8 +2,11 @@
 layout: post
 title: "SAML, OAuth and OpenID Connect"
 date: 2022-08-18
+modified_date: 2022-08-29
 category: identity
 ---
+> This post contains some notes on SAML, OAuth and OICD. It only describes them briefly and the best is probably to go directly read ressources linked in the [Useful Links](#links) section.
+> 
 > Because I'm lazy, SAML and OAuth refers here to SAML 2.0 and OAuth 2.0.
 
 ## SAML
@@ -18,7 +21,7 @@ OAuth is an **authorization** framework. It provides different authorization flo
 
 As OAuth is a *framework*, a lot of details are left to the implementation (e.g. access tokens do not have to be in any particular format).
 
-### Authorization flows
+### Authorization Flows
 In order to gain authorization, client needs to perform an authorization grant to request the access token (and optionaly, the refresh token).
 
 The original OAuth 2.0 RFC defines four grant types:
@@ -34,21 +37,23 @@ OAuth 2.1 is currently being drafted and will consolidate old and new flows in a
 Each of the flows have their advantages/disadvantages and the best flow will depend on the application type and the use case.
 
 ## OpenID Connect
-OpenID Connect (OIDC) is an **authentication** standard that is built on top of OAuth.
+OpenID Connect (OIDC) is an **authentication** standard that is **built on top of OAuth**.
 
-The main difference is that an OIDC flows will give an ID token in addition to the access token. This ID token contains claims about the user.
+The main difference is that an OIDC flows will give an ID token in addition to the access token. This ID token contains claims about the user. 
+
+Claims about the user can also be retreived by calling the `/userinfo` endpoint (defined by OIDC) with the access token.
 
 ### Demo with Okta
-You can set up a demo application using OIDC with the OAuth **authorization code flow**, using Okta as the identity provider.
+You can set up a demo application using OIDC with the OAuth authorization code flow, using Okta as the identity provider.
 
 1. Create an Okta developer account
 2. Select [here](https://developer.okta.com/docs/guides/implement-grant-type/authcode/main/#examples) the framework you want to use for the demo application, clone the repo and follow instruction to deploy.
 3. Create an application in Okta using default values
 4. Log-in to the demo app at `http://localhost:8080/`
 
-Also, my friend Cédric made a [minimalist CLI tool to test OIDC integration](https://github.com/vdbulcke/oidc-client-demo).
+Also, my friend Cédric made a [CLI tool to test OIDC integration](https://github.com/vdbulcke/oidc-client-demo).
 
-## Useful links
+## Useful Links<a name="links"></a>
 - [Understanding SAML](https://developer.okta.com/docs/concepts/saml) - Okta Developer Blog
 - [SAML for Web Developers](https://github.com/jch/saml) - Technical post on SSO with SAML
 - [OAuth 2.0 and OpenID Connect Overview](https://developer.okta.com/docs/concepts/oauth-openid) - Okta Developer Blog
