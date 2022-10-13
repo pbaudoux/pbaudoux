@@ -5,7 +5,7 @@ permalink: /macos
 category: misc
 ---
 # Softwares
-- **[Homebrew](https://brew.sh/)** for packet management
+- **[Homebrew](https://brew.sh/)** for packages management
 - **[Oh My Zsh](https://ohmyz.sh/)** for `zsh` configuration
 - **[LICEcap](https://www.cockos.com/licecap/)** for creating GIFs screen captures
 - **[Rectangle](https://rectangleapp.com/)** for moving, resizing and snapping windows. Even further, **[Yabai](https://github.com/koekeishiya/yabai)** is a tiling window manager using a binary space partitioning
